@@ -1,0 +1,32 @@
+name = Chat
+core = 7.x
+description = A simple chat distro
+
+; Core
+dependencies[] = block
+dependencies[] = book
+dependencies[] = contact
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = taxonomy
+
+; Build Kit
+dependencies[] = admin
+dependencies[] = openid
+dependencies[] = openidadmin
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = ctools
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = views
+dependencies[] = views_ui
+
+; Contrib
+
+dependencies[] = panels
