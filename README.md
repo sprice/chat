@@ -16,7 +16,7 @@ Ensure you have the latest version of `node.js` and `npm` installed on your syst
 
 1. Log in to Drupal site
 2. _Administration_ -> _Configuration_ -> _Nodejs_ -> _Node.js server configuration builder_
-3. Set the _Service Key_, _Backend Host_ and check _Debug_. _Save configuration_
+3. Set the _Service Key_, _Backend Host_ and check _Debug_. _Save configuration_ (only use _Debug_ during development).
 4. Copy the _Suggested configuration_ to `public_html/profiles/chat/modules/contrib/nodejs/nodejs.config.js`
 5. `cd public_html/profiles/chat/modules/contrib/nodjs/`
 6. `npm install`
