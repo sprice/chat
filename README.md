@@ -28,9 +28,3 @@ Ensure you have the latest version of `node.js` and `npm` installed on your syst
 2. Enter Shout Box information. Ensure _Is this a public chatroom?_ is checked.
 3. _Add content_ -> _Meeting_
 4. Enter Meeting information. Ensure _Is this a public chatroom?_ is checked. Use the autocomplete text field _Shout Box_ to select the previouslly created _Shout Box_ (title).
-
-## Problems
-
-1. Chat does not work when two chats are displayed on the same screen (_Meeting_ node display). View a _Shout Box_ to experience chat working. This is a problem with `chatroom.js`. We can probably patch this file to get it working.
-2. Chat only seems to work when _Is this a public chatroom?_ is selected. We want to have private chats.
-3. Chat windows always shows _Author_ and _Timestamp_. Request is for the _Live notes_ to not display this.
