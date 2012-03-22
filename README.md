@@ -31,5 +31,6 @@ Ensure you have the latest version of `node.js` and `npm` installed on your syst
 
 ## Problems
 
-1. Chat does not work when two chats are displayed on the same screen (_Meeting_ node display). View a _Shout Box_ to experience chat working.
+1. Chat does not work when two chats are displayed on the same screen (_Meeting_ node display). View a _Shout Box_ to experience chat working. This is a problem with `chatroom.js`. We can probably patch this file to get it working.
 2. Chat only seems to work when _Is this a public chatroom?_ is selected. We want to have private chats.
+3. Chat windows always shows _Author_ and _Timestamp_. Request is for the _Live notes_ to not display this.
