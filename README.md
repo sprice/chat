@@ -20,7 +20,7 @@ Ensure you have the latest version of `node.js` and `npm` installed on your syst
 4. Copy the _Suggested configuration_ to `public_html/profiles/chat/modules/contrib/nodejs/nodejs.config.js`
 5. `cd public_html/profiles/chat/modules/contrib/nodjs/`
 6. `npm install`
-7. `node server.js`
+7. `node server.js` (long running process).
 
 ## Creating chat backed Meetings
 
