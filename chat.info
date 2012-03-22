@@ -29,4 +29,7 @@ dependencies[] = views_ui
 
 ; Contrib
 
+dependencies[] = chatroom
+dependencies[] = nodejs
+dependencies[] = nodejs_config
 dependencies[] = panels

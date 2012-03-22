@@ -16,5 +16,11 @@ projects[rubik][subdir] = contrib
 ; Additional Contrib
 ;--------------------
 
+projects[chatroom][subdir] = contrib
+projects[chatroom][version] = 2.0-alpha1
+
+projects[nodejs[subdir] = contrib
+projects[nodejs][version] = 1.0-rc1
+
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.0
