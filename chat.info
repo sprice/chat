@@ -32,4 +32,5 @@ dependencies[] = views_ui
 dependencies[] = chatroom
 dependencies[] = nodejs
 dependencies[] = nodejs_config
+dependencies[] = page_manager
 dependencies[] = panels
