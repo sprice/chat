@@ -5,3 +5,31 @@
  */
 
 include_once('ab_chat.features.inc');
+
+/**
+ * Implements hook_node_presave().
+ */
+function ab_chat_node_presave($node) {
+	if ($node->type == 'meeting' && empty($node->nid)) {
+    // Create a Shout Box node
+    $shout = new stdClass;
+    $shout->title = $node->title . " Shout box";
+    $shout->type = 'shout_box';
+    $shout->language = LANGUAGE_NONE;
+    node_object_prepare($shout);
+    node_save($shout);
+    // Attach the Shout Box to the Meeting entityreference
+    $node->field_meeting_shout_box[LANGUAGE_NONE][0]['target_id'] = $shout->nid;
+  }
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function ab_chat_form_alter(&$form, &$form_state, $form_id) {
+  switch ($form_id) {
+    case 'meeting_node_form':
+      $form['field_meeting_shout_box']['#access'] = FALSE;
+    break;
+  }
+}
