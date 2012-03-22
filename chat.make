@@ -19,7 +19,7 @@ projects[rubik][subdir] = contrib
 projects[chatroom][subdir] = contrib
 projects[chatroom][version] = 2.0-alpha1
 
-projects[nodejs[subdir] = contrib
+projects[nodejs][subdir] = contrib
 projects[nodejs][version] = 1.0-rc1
 
 projects[panels][subdir] = contrib
