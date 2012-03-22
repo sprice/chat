@@ -30,6 +30,8 @@ dependencies[] = views_ui
 ; Contrib
 
 dependencies[] = chatroom
+dependencies[] = entity
+dependencies[] = entityreference
 dependencies[] = nodejs
 dependencies[] = nodejs_config
 dependencies[] = page_manager
