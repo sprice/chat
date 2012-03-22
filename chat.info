@@ -36,6 +36,7 @@ dependencies[] = nodejs
 dependencies[] = nodejs_config
 dependencies[] = page_manager
 dependencies[] = panels
+dependencies[] = views_content
 
 ; Custom
 

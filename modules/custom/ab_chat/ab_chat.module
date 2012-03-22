@@ -12,6 +12,8 @@ include_once('ab_chat.features.inc');
 function ab_chat_node_presave($node) {
 	if ($node->type == 'meeting' && empty($node->nid)) {
     // Create a Shout Box node
+    // This doesn't properly attach a Chatroom object to the shout box chat field.
+    /*
     $shout = new stdClass;
     $shout->title = $node->title . " Shout box";
     $shout->type = 'shout_box';
@@ -20,6 +22,7 @@ function ab_chat_node_presave($node) {
     node_save($shout);
     // Attach the Shout Box to the Meeting entityreference
     $node->field_meeting_shout_box[LANGUAGE_NONE][0]['target_id'] = $shout->nid;
+    */
   }
 }
 
@@ -29,7 +32,7 @@ function ab_chat_node_presave($node) {
 function ab_chat_form_alter(&$form, &$form_state, $form_id) {
   switch ($form_id) {
     case 'meeting_node_form':
-      $form['field_meeting_shout_box']['#access'] = FALSE;
+      //$form['field_meeting_shout_box']['#access'] = FALSE;
     break;
   }
 }
