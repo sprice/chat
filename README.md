@@ -26,7 +26,7 @@ Ensure you have the latest version of `node.js` and `npm` installed on your syst
 
 1. _Add content_ -> _Shout Box_
 2. Enter Shout Box information. Ensure _Is this a public chatroom?_ is checked.
-3. _Add content_ -> _Meeting)
+3. _Add content_ -> _Meeting_
 4. Enter Meeting information. Ensure _Is this a public chatroom?_ is checked. Use the autocomplete text field _Shout Box_ to select the previouslly created _Shout Box_ (title).
 
 ## Problems
