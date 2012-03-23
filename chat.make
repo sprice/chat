@@ -25,6 +25,8 @@ projects[chatroom][download][branch] = 7.x-2.x
 projects[chatroom][patch][] = http://drupal.org/files/multiple_chats-1495374-1.patch
 ; Clean up chatroom db tables when field deleted
 projects[chatroom][patch][] = http://drupal.org/files/hook_field_delete-1497134-1.patch
+; Set roles for each chat
+projects[chatroom][patch][] = http://drupal.org/files/chatroom_roles-1497342-1.patch
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc1
