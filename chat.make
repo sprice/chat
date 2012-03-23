@@ -16,8 +16,14 @@ projects[rubik][subdir] = contrib
 ; Additional Contrib
 ;--------------------
 
+projects[chatroom][download][type] = git
+projects[chatroom][type] = module
 projects[chatroom][subdir] = contrib
-projects[chatroom][version] = 2.0-alpha1
+projects[chatroom][download][url] = http://git.drupal.org/project/chatroom.git
+projects[chatroom][download][branch] = 7.x-2.x
+; Allow multiple chat fields
+projects[chatroom][patch][] = http://drupal.org/files/multiple_chats-1495374-1.patch
+
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc1
