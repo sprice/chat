@@ -31,8 +31,8 @@ projects[chatroom][patch][] = http://drupal.org/files/multiple_chats-1495374-1.p
 projects[chatroom][patch][] = http://drupal.org/files/hook_field_delete-1497134-1.patch
 ; Set roles for each chat
 ; http://drupal.org/node/1497342
-; http://drupal.org/node/1497342#comment-5775026
-projects[chatroom][patch][] = http://drupal.org/files/chatroom_roles-1497342-1.patch
+; http://drupal.org/node/1497342#comment-5775458
+projects[chatroom][patch][] = http://drupal.org/files/chatroom_roles-1497342-2_0.patch
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc1
