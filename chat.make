@@ -20,19 +20,12 @@ projects[chatroom][download][type] = git
 projects[chatroom][type] = module
 projects[chatroom][subdir] = contrib
 projects[chatroom][download][url] = http://git.drupal.org/project/chatroom.git
-projects[chatroom][download][branch] = 7.x-2.x
+; Mar 25, 2012
+projects[chatroom][download][revision] = 05e20b4506249c863c9244c1d180232abd976e5c
 ; Allow multiple chat fields
 ; http://drupal.org/node/1495374
 ; http://drupal.org/node/1495374#comment-5768212
 projects[chatroom][patch][] = http://drupal.org/files/multiple_chats-1495374-1.patch
-; Clean up chatroom db tables when field deleted
-; http://drupal.org/node/1497134
-; http://drupal.org/node/1497134#comment-5773780
-projects[chatroom][patch][] = http://drupal.org/files/hook_field_delete-1497134-1.patch
-; Set roles for each chat
-; http://drupal.org/node/1497342
-; http://drupal.org/node/1497342#comment-5775458
-projects[chatroom][patch][] = http://drupal.org/files/chatroom_roles-1497342-2_0.patch
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc1
