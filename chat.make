@@ -20,21 +20,22 @@ projects[chatroom][download][type] = git
 projects[chatroom][type] = module
 projects[chatroom][subdir] = contrib
 projects[chatroom][download][url] = http://git.drupal.org/project/chatroom.git
+projects[chatroom][download][branch] = 7.x-2.x
 ; Mar 25, 2012
-projects[chatroom][download][revision] = 05e20b4506249c863c9244c1d180232abd976e5c
+projects[chatroom][download][revision] = 2747ace4
 ; Allow multiple chat fields
 ; http://drupal.org/node/1495374
 ; http://drupal.org/node/1495374#comment-5768212
 projects[chatroom][patch][] = http://drupal.org/files/multiple_chats-1495374-1.patch
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0-rc1
+projects[entity][version] = 1.0-rc3
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.0-rc1
+projects[entityreference][version] = 1.0-rc3
 
 projects[nodejs][subdir] = contrib
 projects[nodejs][version] = 1.0-rc1
 
 projects[panels][subdir] = contrib
-projects[panels][version] = 3.0
+projects[panels][version] = 3.2
