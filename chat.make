@@ -23,10 +23,16 @@ projects[chatroom][download][url] = http://git.drupal.org/project/chatroom.git
 projects[chatroom][download][branch] = 7.x-2.x
 ; Mar 25, 2012
 projects[chatroom][download][revision] = 2747ace4
+
+; Allow loading of previous messages
+; http://drupal.org/node/1671382
+; http://drupal.org/node/1671382#comment-6205562
+projects[chatroom][patch][] = http://drupal.org/files/previous_messages-1671382-6.patch
+
 ; Allow multiple chat fields
 ; http://drupal.org/node/1495374
-; http://drupal.org/node/1495374#comment-5768212
-projects[chatroom][patch][] = http://drupal.org/files/multiple_chats-1495374-1.patch
+; Patch still in progress so this is a patch against 1671382
+; projects[chatroom][patch][] = https://raw.github.com/gist/6b0121e69054a6958644/0e06615eca89bb4ce31e1b68b8ee282aab967a2b/multiple_chats.patch
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
