@@ -22,15 +22,10 @@ projects[chatroom][subdir] = contrib
 projects[chatroom][download][url] = http://git.drupal.org/project/chatroom.git
 projects[chatroom][download][tag] = 7.x-2.0
 
-; Lint chatroom.js
-; https://gist.github.com/3443783
-projects[chatroom][patch][] = https://raw.github.com/gist/3443783/05f65f3f23a7ce9a2b17a591897ae3f826fc1d06/chatroom_jshint.patch
-
 ; Allow multiple chat fields
 ; http://drupal.org/node/1495374
-; Patch still in progress so this is a patch against 1671382
-; https://gist.github.com/6b0121e69054a6958644
-; projects[chatroom][patch][] = https://raw.github.com/gist/6b0121e69054a6958644/fe6340aa1942cf3b9392ff37500ec4de9d480d95/multiple_chats.patch
+; http://drupal.org/node/1495374#comment-6391390
+projects[chatroom][patch][] = http://drupal.org/files/multiple_chats-1495374-10.patch
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
